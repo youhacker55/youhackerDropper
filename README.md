@@ -11,7 +11,7 @@
 
 
 # FAKEApexCheat
-![](/Screenshots/Apex.png)
+![](/Screenshots/Apex.PNG)
   
 # Detection
 ![](/Screenshots/Detection.png)
