@@ -23,6 +23,7 @@
   * download visual studio 2019
   * go to fakeapexcheat.vbproj
   * put your payload url (should be direct url)
+  * Compile with visualstudio
 
 
 
